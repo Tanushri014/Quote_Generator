@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QUOTE GENERATOR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Try Out-Quote Generator</h1>
-    <div>
-        <div>
-<input type="text" placeholder="your quote here ">
+
+    <div class="container">
+        <h1>Try Out-Quote Generator</h1>
+        <div class="main">
+            <div class="quote">
+                <h2 class="msg">Quote of the day </h2>
+            </div>
+            <div class="bottom">
+                <button class="btn" type="button">Generate new quote</button>
+                <i class="fa-solid fa-copy" id="copy">copy</i>
+            </div>
         </div>
-        <button>Generate new quote</button>
-        <i>copy paste</i>
     </div>
+
+
 </body>
+<script src="script.js"></script>
 </html>
